@@ -1,11 +1,43 @@
+@font-face {
+  font-family: 'KodeMonoRegular';
+  src: url('/static/mainapp/fonts/Kode_Mono/static/KodeMono-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PermanentMarkerRegular';
+  src: url('/static/mainapp/fonts/Permanent_Marker/PermanentMarker-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'SonoRegular';
+  src: url('/static/mainapp/fonts/Sono/static/Sono-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.responsive-video {
+    max-width: 100%; /* Makes the video width responsive to the container */
+    height: auto;    /* Keeps the video aspect ratio intact */
+}
+
 body {
-  margin-top: 105px; 
+  font-family: 'SonoRegular', sans-serif;
+  margin-top: 150px; 
+}
+
+h1{
+    font-family: 'PermanentMarkerRegular', sans-serif;
 }
 
 .navbar {
   box-shadow: 2px 2px #00ffff;
   opacity: 1;
-  background: #ffffff;
+  background: #DEEFF5DD;
   .navbar .nav-item {
     font-size: 1.4rem;
     padding-right: 1.4rem;
@@ -15,14 +47,20 @@ body {
 
 #showcase {
   position: relative;
-  min-height: 600px; }
-  #showcase .primary-overlay {
-    background: rgba(191, 99, 63, 0.7);
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center content vertically and horizontally */
+}
+
+#showcase .primary-overlay {
+    background: rgba(0,0,128,1.0);
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%; }
+    height: 100%;
+}
 
 .secondaryButton {
   background: #14ac14;
@@ -47,3 +85,4 @@ body {
 .list_section_button{
   margin-left: auto;
 }
+

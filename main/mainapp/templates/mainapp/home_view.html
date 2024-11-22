@@ -2,13 +2,49 @@
 
 {% block content %}
 
+{% load static %}
+
+<section id="showcase" class="my-1">
+  <div class="primary-overlay text-white">
+    <div class="container h-100">
+      <div class="row h-100">
+        <div class="col-lg-6 text-center d-flex align-items-center">
+          <div>
+            <h1 class="display-3">New World Coding</h1>
+            <p class="display-5">Extraordinary technical classes for the ambitious.</p>
+          </div>
+        </div>
+        <div class="col-lg-6 text-center d-none d-lg-flex align-items-center">
+          <video autoplay loop muted playsinline class="responsive-video">
+            <source src="{% static 'mainapp/video/new_world_coding_website_vid.mp4' %}" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <section class="py-5">
     <div class="container">
         <div class="row">
             <div class="col">
-                <h1> Hello!</h1>
-                <p> Hi, how are you? </p>
-                <p> Have a nice day!</p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h1> New World Coding</h1>
+                <h2> Check out our upcoming workshops</h2>
+                <ul>
+                    <li>Webdevelopment. Linux, Backend, Frontend, Docker, Reverse Proxy, etc..</li>
+                    <li>Embedded Linux with Beaglebone</li>
+                </ul>
+                <h2> Have a nice day!</h2>
+                <p> See the contact page for info about how to get in touch.</p>
+
+
 
             </div>
         </div>
