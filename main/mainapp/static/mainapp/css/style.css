@@ -27,7 +27,7 @@
 
 body {
   font-family: 'SonoRegular', sans-serif;
-  margin-top: 150px; 
+  margin-top: 100px; 
 }
 
 h1{
@@ -35,15 +35,23 @@ h1{
 }
 
 .navbar {
-  box-shadow: 2px 2px #00ffff;
+  box-shadow: 2px 2px #000000;
   opacity: 1;
-  background: #DEEFF5DD;
-  .navbar .nav-item {
-    font-size: 1.4rem;
-    padding-right: 1.4rem;
-  }
+  background: ghostwhite;
 }
 
+.navbar-brand{
+  color: black !important;
+  font-size: 2.0rem;
+}
+
+.navbar-brand img{
+  margin-right: 0px;
+}
+
+.nav-link{
+  color: black !important;
+}
 
 #showcase {
   position: relative;
