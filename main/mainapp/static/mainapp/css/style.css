@@ -49,6 +49,16 @@ h1{
     font-family: 'PermanentMarkerRegular', sans-serif;
 }
 
+h2{
+    font-family: 'PermanentMarkerRegular', sans-serif;
+}
+
+
+h3{
+    font-family: 'PermanentMarkerRegular', sans-serif;
+}
+
+
 .navbar {
   opacity: 1;
   background: ghostwhite;
@@ -118,6 +128,26 @@ h1{
   margin-left: auto;
 }
 
+.header-section{
+    background: yellow;
+}
+
 .footer-background {
     background: rgba(0,157,196,1.0);
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  padding:8px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
 }
