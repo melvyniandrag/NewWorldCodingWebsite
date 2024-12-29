@@ -20,6 +20,20 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'GaladaRegular';
+  src: url('/static/mainapp/fonts/Galada/Galada-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TacOne';
+  src: url('/static/mainapp/fonts/Tac_One/TacOne-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .responsive-video {
     max-width: 100%; /* Makes the video width responsive to the container */
     height: auto;    /* Keeps the video aspect ratio intact */
@@ -28,6 +42,7 @@
 body {
   font-family: 'SonoRegular', sans-serif;
   margin-top: 100px; 
+  background: ghostwhite;
 }
 
 h1{
@@ -35,7 +50,6 @@ h1{
 }
 
 .navbar {
-  box-shadow: 2px 2px #000000;
   opacity: 1;
   background: ghostwhite;
 }
@@ -53,6 +67,16 @@ h1{
   color: black !important;
 }
 
+.my-custom-link-format{
+  color: blue;
+  font-size: 1.2rem;
+}
+
+.my-custom-link-format-alt{
+  color: rebeccapurple;
+  font-size: 1.2rem;
+}
+
 #showcase {
   position: relative;
   min-height: 400px;
@@ -62,7 +86,7 @@ h1{
 }
 
 #showcase .primary-overlay {
-    background: rgba(0,0,128,1.0);
+    background: rgba(0,157,196,1.0);
     position: absolute;
     top: 0;
     left: 0;
@@ -94,3 +118,6 @@ h1{
   margin-left: auto;
 }
 
+.footer-background {
+    background: rgba(0,157,196,1.0);
+}

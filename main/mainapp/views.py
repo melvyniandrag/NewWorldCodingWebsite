@@ -8,6 +8,17 @@ def home_view(request):
     context ={}
     return render(request, "mainapp/home_view.html", context) 
 
+
+def coming_soon_view(request):
+    context ={}
+    return render(request, "mainapp/coming_soon_view.html", context) 
+
+
+def workshop_webdevelopment_detail_view(request):
+    context ={}
+    return render(request, "mainapp/workshop_webdevelopment_detail_view.html", context) 
+    
+
 def list_view(request):
     context ={}
     context["blog_posts"] = AstronomyBlogPost.objects.all().order_by('-id')
